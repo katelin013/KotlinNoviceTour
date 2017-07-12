@@ -63,5 +63,8 @@ private String str2;
 
 不過基本上這兩個如果宣告 null 也是一件很奇怪的事情就是了 XD
 
+從以上兩點即可看出, 以往 Java 中最討厭的 NPE , 透過 Kotlin 可以有效地處理的比較漂亮
+
+不用像以前一樣寫很多的 if(x != null) 或者是 try catch 只為了避免 NPE 了!
 
 
