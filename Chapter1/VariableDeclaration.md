@@ -39,7 +39,7 @@ var str1: String     (出錯, 甚至連compile都不行)
 
 如果一個變數一開始不想給他值, 想之後給, 有幾個做法
 
-*1. var str1: String? = null*
+**1. var str1: String? = null**
 
 當之後 code 需要使用到str1時, 必須加上問號, 
 
@@ -51,7 +51,7 @@ if(str1 != null) str1?.length
 ```
 所以如果沒有事先賦予 st1 一個值的話, str1?.length 會跳過
 
-*2. lateinit var str2*
+**2. lateinit var str2**
 
 跟加上問號不一樣, lateinit 就比較接近原本 Java 中的 
 ```
