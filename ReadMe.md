@@ -35,7 +35,7 @@ buildscript {
 }
 ```
 
-**build.gradle (App) 會加上 : **
+**build.gradle (App) 會加上 :** 
 
 apply plugin: 'kotlin-android'
 
