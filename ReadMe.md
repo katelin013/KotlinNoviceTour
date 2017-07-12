@@ -16,7 +16,8 @@ email : katelin013@gmail.com    (有工作機會的話也請指教XDDDD)
 
 build.gradle (Project) :
 
-```buildscript {
+```
+buildscript {
     ext.kotlin_version = '1.1.3-2'
 	 ...
 
