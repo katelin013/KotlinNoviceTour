@@ -1,0 +1,65 @@
+
+
+變數宣告
+=======
+基本變數宣告
+----------
+
+var str1: String = "str1"
+
+val str2: String = "str2"
+
+var 為宣告變數 (後來可變) , val 為常數宣告 (後來不可變, 即 Java 中的 final)
+
+如果確定該變數或者是物件確定是不會變的, 建議使用 val 宣告
+
+與 Java 有點不一樣的地方
+
+var str1: String = "str1" 也可以寫作 var str1 = ""
+
+Kotlin 會自動將變數的資料結構判別為 = 後面的格式, 例如 :
+
+var boolean1 = false (宣告為Boolean值)
+
+var int1 = 1 (宣告為Int)
+
+........
+
+還有一點跟 Java 不一樣的部分
+
+Java 中 可以宣告變數, 但是不賦予值
+
+private String str1;
+
+但是在 Kotlin 中是不行的
+
+var str1: String     (出錯, 甚至連compile都不行)
+
+這是基於 Kotlin 要改善 Java 中常出現的 NPE (NullPointException) 所做的改變之一
+
+如果一個變數一開始不想給他值, 想之後給, 有幾個做法
+
+1. var str1: String? = null
+
+當之後 code 需要使用到str1時, 必須加上問號, 
+
+例如:str1?.length (取str1的字數)
+
+加上問號, 概念會變成有點類似 
+
+```
+if(str1 != null) str1?.length
+```
+
+所以如果沒有事先賦予 st1 一個值的話, str1?.length 會跳過
+
+2. lateinit var str2
+
+跟加上問號不一樣, lateinit 就比較接近原本 Java 中的 
+```
+private String str2
+```
+
+
+
+
