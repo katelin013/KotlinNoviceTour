@@ -12,4 +12,15 @@ var c = if(s.isNotEmpty()) 1 else -1
 ```
 可讀性看起來, Kotlin 略勝一籌
 
+如果是賦予空值的宣告, 還有另外一種寫法 :
+Java : 
+```
+String str = (x != null) ? a : "" ;
+```
+Kotlin :
+```
+val str = a ?: ""
+```
+
+
 
