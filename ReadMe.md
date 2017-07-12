@@ -14,7 +14,7 @@ email : katelin013@gmail.com    (有工作機會的話也請指教XDDDD)
 
 裝完Plugin之後, 也會提示是否要讓專案支援Kotlin, 選擇是之後, 會修改兩隻檔案
 
-build.gradle (Project) :
+**build.gradle (Project) :**
 
 ```
 buildscript {
@@ -35,6 +35,14 @@ buildscript {
 }
 ```
 
-build.gradle (App) :
+**build.gradle (App) 會加上 : **
+
+apply plugin: 'kotlin-android'
+
+不過還要加上 "kotlin-android-extensions" 才會有依賴關係 
+
+(直接在code中使用 textView.text = "test", 不需要再findViewById)
+
+
 
 
