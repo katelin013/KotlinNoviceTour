@@ -43,6 +43,20 @@ apply plugin: 'kotlin-android'
 
 (直接在code中使用 textView.text = "test", 不需要再findViewById)
 
+現在是否應該使用Kotlin?
+--------------------
+個人回答 : 舊的code就不用改了, 新的code 或者是需要重構的部分, 可以嘗試使用Kotlin, 它的語法糖
+
+太迷人了, 可以讓code很漂亮, 寫起來也很開心(個人心得), 基本上現在也不太會有什麼坑, 畢竟它是100%
+
+相容Java的 (當然, 同一支Class是只能有Java或Kotlin, 但是不同class間目前用起來依然良好)
+
+Android Studio 也可以將 Java 轉換成 Kotlin, 當然沒有那麼簡單, 直接按幾下就完美轉換...
+
+不過可以將Java code copy, 貼在一個空的kt檔內會做轉換, 在一開始學習Kotlin時, 這功能
+
+真的幫了很大的忙啊!!
+
 
 
 
