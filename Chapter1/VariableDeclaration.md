@@ -46,20 +46,22 @@ var str1: String     (出錯, 甚至連compile都不行)
 例如:str1?.length (取str1的字數)
 
 加上問號, 概念會變成有點類似 
-
 ```
 if(str1 != null) str1?.length
 ```
-
 所以如果沒有事先賦予 st1 一個值的話, str1?.length 會跳過
 
 2. lateinit var str2
 
 跟加上問號不一樣, lateinit 就比較接近原本 Java 中的 
 ```
-private String str2
+private String str2;
 ```
+在還沒賦予值的時候 str2 是不能使用的, 直到之後給予值之後才能使用
 
+另外還有一點, lateinit 是不能使用 val 宣告為常數的 (as會直接噴錯)
+
+不過基本上這兩個如果宣告 null 也是一件很奇怪的事情就是了 XD
 
 
 
