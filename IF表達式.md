@@ -21,6 +21,20 @@ Kotlin :
 ```
 val str = a ?: ""
 ```
+宣告一個變數也可以這樣寫 : 
+```
+val a = 5
+val b = 10
+
+val max = if (a > b) {
+	println(a > b)
+	a
+} else {
+	println(a < b)	
+	b
+}
+println(max) //會直接得到 b 的值
+```
 
 
 
