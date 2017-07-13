@@ -65,6 +65,10 @@ Kotlin 借鏡不同語言的想法, 加入了很多比較新穎的構想, 加上
 
 好時機！！
 
+*文獻參考 :* 
 
+中國的大神將官方的教學翻譯成中文:
+
+http://www.kotlincn.net/docs/reference/ 
 
 
