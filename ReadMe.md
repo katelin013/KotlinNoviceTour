@@ -71,4 +71,6 @@ Kotlin 借鏡不同語言的想法, 加入了很多比較新穎的構想, 加上
 
 http://www.kotlincn.net/docs/reference/ 
 
+如何安裝 Kotlin : 
+http://blog.csdn.net/coder_pig/article/details/72851888
 

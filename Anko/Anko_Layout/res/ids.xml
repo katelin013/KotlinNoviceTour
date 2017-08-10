@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logo_img" type="id" />
+    <item name="account_layout" type="id" />
+    <item name="pwdLayout" type="id" />
+    <item name="loginBtn" type="id" />
+</resources>
