@@ -18,6 +18,7 @@ https://android.jlelse.eu/400-faster-layouts-with-anko-da17f32c45dd
 簡單講一下 Anko 介紹 (資料來源為 Anko 的 github 官方介紹):
 
 **Anko Layouts:**
+
 Anko Layout是使用DSL(Domain-Specific Language)的方式刻Android Layout, 以下是一個使用
 
 Anko DSL 簡單的 Layout
